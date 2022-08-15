@@ -1,0 +1,24 @@
+{
+    "name": "ianl28/apply-mutations-cy",
+    "description": "PHP class with facilities to apply grammatic mutations to Welsh text.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ianl28\\ApplyMutationsCy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ian Low",
+            "email": "ianlow28@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "scripts": {
+      "post-status-cmd": "Ianl28\\StarterFiles\\StarterFiles::run" 
+    },
+    "require": {
+        "ianl28/starter-files": "dev-main"
+    }
+}
